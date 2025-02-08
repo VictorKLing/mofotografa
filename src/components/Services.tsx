@@ -41,7 +41,7 @@ const features = [
 
 const Services = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-white to-rose-50">
+    <section id="services" className="py-20 px-4 bg-gradient-to-b from-white to-rose-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-serif mb-4">Serviços</h2>

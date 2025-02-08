@@ -10,9 +10,9 @@ const stats = [
 
 const About = () => {
   return (
-    <section className="py-20 px-4">
+    <section id="about" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-center">
           <div className="relative">
             <div className="relative z-10">
               <img
@@ -32,14 +32,11 @@ const About = () => {
             </div>
             
             <p className="text-gray-600 leading-relaxed">
-              Sou uma fotógrafa apaixonada por capturar a essência dos momentos mais especiais.
-              Com mais de 8 anos de experiência, desenvolvi um estilo único que combina técnica
-              refinada com sensibilidade artística.
+              Sou uma fotógrafa apaixonada por capturar a essência dos momentos mais especiais, transformando instantes fugazes em lembranças eternas. Com mais de 8 anos de experiência no mundo da fotografia, desenvolvi um estilo único que combina técnica refinada, olhar sensível e criatividade para registrar cada detalhe com autenticidade.
             </p>
             
             <p className="text-gray-600 leading-relaxed">
-              Cada sessão fotográfica é uma oportunidade de contar uma história única,
-              eternizando emoções e criando memórias que durarão para sempre.
+              Acredito que cada sessão fotográfica é uma oportunidade de contar uma história única, transmitindo emoções genuínas e criando memórias inesquecíveis. Meu objetivo é fazer com que cada imagem reflita a beleza e a singularidade de cada momento, seja em eventos, ensaios ou ocasiões especiais. Afinal, a fotografia é mais do que um simples clique – é uma forma de arte que imortaliza sentimentos e conecta pessoas ao longo do tempo.
             </p>
             
             <a

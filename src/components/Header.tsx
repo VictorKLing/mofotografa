@@ -15,13 +15,10 @@ const Header = () => {
   }, []);
 
   const menuItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Sobre', href: '/about' },
-    { label: 'Portfólio', href: '/portfolio' },
-    { label: 'Serviços', href: '/services' },
-    { label: 'Depoimentos', href: '/testimonials' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Contato', href: '/contact' },
+    { label: 'Sobre', href: '#about' },
+    { label: 'Portfólio', href: '#portfolio' },
+    { label: 'Serviços', href: '#services' },
+    { label: 'Contato', href: '#contact' },
   ];
 
   const socialLinks = [
